@@ -1,0 +1,51 @@
+/* Footer.css */
+
+/* Styles for the footer container */
+.footer {
+    margin-top: 50px;
+    background-color: #dedad991;
+    color: black;
+    padding: 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Styles for the footer content */
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    width: 30%;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+  }
+  
+  /* Styles for the footer bottom */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #555;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

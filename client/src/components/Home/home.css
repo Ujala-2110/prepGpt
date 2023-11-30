@@ -1,0 +1,80 @@
+/* HomePage.css */
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    /* background-color: #007acc; */
+    /* background-color: #5d5c66; */
+    background-color: #29272df5;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .main {
+    margin-top: 20px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .feature {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(84 69 69 / 37%);
+    text-align: center;
+  }
+  
+  .feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+  }
+
+/* CSS for the "Start Interview" button */
+.start-interview-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.start-interview-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #29272df5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.start-interview-button a:hover {
+  background-color: #1c63af;
+}
