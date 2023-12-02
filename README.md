@@ -24,9 +24,8 @@ To get started with Prepgpt, follow these steps:
 
 1. clone the repository
 2. Install node modules using npm i
-3. cd client and install required libraries using package.json
-4. cd backend and install required libraries using package.json
-5. npm start
+3. cd client and npm start
+4. cd backend and npm start
 
 #Tech Stack
 Frontend: React, Redux
